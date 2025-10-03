@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import BlogPostCard from './BlogPostCard';
+import BlogPostCard from '../components/blog/BlogPostCard';
 
 const meta: Meta<typeof BlogPostCard> = {
   title: 'Blog/BlogPostCard',
@@ -12,7 +12,7 @@ const meta: Meta<typeof BlogPostCard> = {
     post: {
       control: 'object',
       description: 'Blog post data',
-    } as any, // Cast to any to bypass type checking for story args
+    },
   },
 };
 
@@ -28,7 +28,7 @@ export const Default: Story = {
       date: '2023-10-26',
       tag: 'Technology',
       slug: 'the-future-of-e-commerce',
-    },
+    } as any,
   },
 };
 
@@ -41,6 +41,19 @@ export const AnotherPost: Story = {
       date: '2023-09-15',
       tag: 'Business',
       slug: '10-tips-for-successful-online-store',
-    },
+    } as any,
+  },
+};
+
+export const FeaturedPost: Story = {
+  args: {
+    post: {
+      title: 'Featured Article: Design Trends',
+      brief: 'Exploring the latest design trends in e-commerce interfaces.',
+      coverImage: 'https://media.istockphoto.com/id/1209783189/photo/gamepads-headphones-and-keyboard-with-mouse-on-old-wood-blue-table.jpg?s=2048x2048&w=is&k=20&c=ktlDSn-mcbKNAnSOqB6gdpVMhcKnFLWKei8H8sgAmQs=',
+      date: '2023-11-01',
+      tag: 'Style',
+      slug: 'featured-article-design-trends',
+    } as any,
   },
 };
