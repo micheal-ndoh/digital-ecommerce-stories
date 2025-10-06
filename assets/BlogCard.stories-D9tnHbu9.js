@@ -1,0 +1,19 @@
+import{j as e}from"./jsx-runtime-DFOoB9QJ.js";import{n as c}from"./image-oXxRKC8O.js";import{L as d}from"./link-BGPO9yXc.js";import"./iframe-DQP-uQIu.js";import"./preload-helper-PPVm8Dsz.js";const i=({title:a,coverImage:r,slug:n})=>e.jsxs("div",{className:"relative overflow-hidden rounded-md ",children:[e.jsx(d,{href:`/blogs/news/${n}`,children:e.jsx("div",{className:"aspect-[4/3] w-full overflow-hidden rounded-md",children:e.jsx(c,{src:r,alt:"blog cover",className:"size-full object-cover object-center",width:1e3,height:1e3})})}),e.jsxs("div",{className:"p-4",children:[e.jsx("h3",{className:"card-title mb-1 line-clamp-2 text-ellipsis font-semibold",children:a}),e.jsxs("p",{className:"diivde-x text-xs",children:[e.jsx("span",{children:"by Devsphere labs"}),e.jsx("br",{}),e.jsx("span",{children:"February 23, 2023"})]})]})]});i.__docgenInfo={description:"",methods:[],displayName:"BlogCard",props:{title:{required:!0,tsType:{name:"string"},description:""},coverImage:{required:!0,tsType:{name:"union",raw:"string | StaticImageData",elements:[{name:"string"},{name:"StaticImageData"}]},description:""},slug:{required:!0,tsType:{name:"string"},description:""}}};const u={title:"Components/BlogCard",component:i,parameters:{layout:"centered"},tags:["autodocs"],argTypes:{title:{control:"text",description:"Title of the blog post"},coverImage:{control:"text",description:"URL or path to the cover image"},slug:{control:"text",description:"Slug for the blog post URL"}}},o={args:{title:"The Latest Trends in Fashion",coverImage:"https://media.istockphoto.com/id/1373613814/photo/gamer-work-space-concept-gaming-set-up-top-view-of-a-gaming-gear-keyboard-mouse-gamepad.jpg?s=2048x2048&w=is&k=20&c=XCi-o5lLboImaz0jUOGI6Zhg-E8v6gS-q9jhqyWRCDU=",slug:"the-latest-trends-in-fashion"}},t={args:{title:"Minimalist Style Guide",coverImage:"https://media.istockphoto.com/id/1182209797/photo/close-view-of-wireless-black-gaming-headphones-with-microphone-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=lpY2F0QiHFVNiTQb0iHIxiy9U9CTagpExdvWQduUoRk=",slug:"minimalist-style-guide"}},s={args:{title:"How to Choose the Perfect Accessories for Your Outfit: A Comprehensive Guide",coverImage:"https://media.istockphoto.com/id/1209783189/photo/gamepads-headphones-and-keyboard-with-mouse-on-old-wood-blue-table.jpg?s=2048x2048&w=is&k=20&c=ktlDSn-mcbKNAnSOqB6gdpVMhcKnFLWKei8H8sgAmQs=",slug:"how-to-choose-perfect-accessories"}};o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{
+  args: {
+    title: 'The Latest Trends in Fashion',
+    coverImage: 'https://media.istockphoto.com/id/1373613814/photo/gamer-work-space-concept-gaming-set-up-top-view-of-a-gaming-gear-keyboard-mouse-gamepad.jpg?s=2048x2048&w=is&k=20&c=XCi-o5lLboImaz0jUOGI6Zhg-E8v6gS-q9jhqyWRCDU=',
+    slug: 'the-latest-trends-in-fashion'
+  }
+}`,...o.parameters?.docs?.source}}};t.parameters={...t.parameters,docs:{...t.parameters?.docs,source:{originalSource:`{
+  args: {
+    title: 'Minimalist Style Guide',
+    coverImage: 'https://media.istockphoto.com/id/1182209797/photo/close-view-of-wireless-black-gaming-headphones-with-microphone-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=lpY2F0QiHFVNiTQb0iHIxiy9U9CTagpExdvWQduUoRk=',
+    slug: 'minimalist-style-guide'
+  }
+}`,...t.parameters?.docs?.source}}};s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  args: {
+    title: 'How to Choose the Perfect Accessories for Your Outfit: A Comprehensive Guide',
+    coverImage: 'https://media.istockphoto.com/id/1209783189/photo/gamepads-headphones-and-keyboard-with-mouse-on-old-wood-blue-table.jpg?s=2048x2048&w=is&k=20&c=ktlDSn-mcbKNAnSOqB6gdpVMhcKnFLWKei8H8sgAmQs=',
+    slug: 'how-to-choose-perfect-accessories'
+  }
+}`,...s.parameters?.docs?.source}}};const w=["Default","ShorterTitle","LongTitle"];export{o as Default,s as LongTitle,t as ShorterTitle,w as __namedExportsOrder,u as default};

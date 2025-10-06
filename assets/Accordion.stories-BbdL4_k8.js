@@ -1,0 +1,19 @@
+import{j as e}from"./jsx-runtime-DFOoB9QJ.js";import"./iframe-DQP-uQIu.js";import"./preload-helper-PPVm8Dsz.js";const n=({question:t,answer:a,idx:i})=>e.jsx("div",{className:"",children:e.jsxs("details",{className:"group",children:[e.jsxs("summary",{className:"flex w-full cursor-pointer list-none items-center justify-between gap-4 rounded-lg py-5",children:[e.jsxs("div",{className:"inline-flex items-center gap-4",children:[e.jsx("span",{className:" inline-flex size-8 items-center justify-center rounded-full bg-white dark:bg-neutral-900 lg:size-12",children:i+1}),e.jsx("span",{className:"inline-block",children:t})]}),e.jsxs("div",{children:[e.jsx("svg",{xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24",strokeWidth:"1.5",stroke:"currentColor",className:"block size-5 group-open:hidden",children:e.jsx("path",{strokeLinecap:"round",strokeLinejoin:"round",d:"M12 4.5v15m7.5-7.5h-15"})}),e.jsx("svg",{xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24",strokeWidth:"1.5",stroke:"currentColor",className:"hidden size-5 group-open:block",children:e.jsx("path",{strokeLinecap:"round",strokeLinejoin:"round",d:"M19.5 12h-15"})})]})]}),e.jsx("div",{className:"pb-8 pl-16 text-sm text-neutral-500 dark:text-neutral-300",children:e.jsx("p",{children:a})})]})});n.__docgenInfo={description:"",methods:[],displayName:"Accordion",props:{question:{required:!0,tsType:{name:"string"},description:""},answer:{required:!0,tsType:{name:"string"},description:""},idx:{required:!0,tsType:{name:"number"},description:""}}};const p={title:"Components/Accordion",component:n,parameters:{layout:"centered"},tags:["autodocs"],argTypes:{question:{control:"text",description:"The question for the accordion header"},answer:{control:"text",description:"The answer content for the accordion body"},idx:{control:"number",description:"Index of the accordion item (for display)"}}},r={args:{question:"What is your return policy?",answer:"Our return policy allows returns within 30 days of purchase with a valid receipt. Items must be unused and in their original packaging.",idx:0}},o={args:{question:"How do I track my order?",answer:'You can track your order by logging into your account and navigating to the "Order History" section. A tracking number will be provided once your order has shipped.',idx:1}},s={args:{question:"What payment methods do you accept?",answer:"We accept a variety of payment methods including major credit cards (Visa, MasterCard, American Express), PayPal, and Apple Pay. We also offer installment plans through our partners. For more details, please visit our payment information page.",idx:2}};r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`{
+  args: {
+    question: 'What is your return policy?',
+    answer: 'Our return policy allows returns within 30 days of purchase with a valid receipt. Items must be unused and in their original packaging.',
+    idx: 0
+  }
+}`,...r.parameters?.docs?.source}}};o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{
+  args: {
+    question: 'How do I track my order?',
+    answer: 'You can track your order by logging into your account and navigating to the "Order History" section. A tracking number will be provided once your order has shipped.',
+    idx: 1
+  }
+}`,...o.parameters?.docs?.source}}};s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  args: {
+    question: 'What payment methods do you accept?',
+    answer: 'We accept a variety of payment methods including major credit cards (Visa, MasterCard, American Express), PayPal, and Apple Pay. We also offer installment plans through our partners. For more details, please visit our payment information page.',
+    idx: 2
+  }
+}`,...s.parameters?.docs?.source}}};const u=["Default","AnotherQuestion","LongAnswer"];export{o as AnotherQuestion,r as Default,s as LongAnswer,u as __namedExportsOrder,p as default};
