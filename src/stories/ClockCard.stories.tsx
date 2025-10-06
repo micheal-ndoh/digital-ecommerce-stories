@@ -75,7 +75,7 @@ export const Default: Story = {
 export const DarkMode: Story = {
   args: {
     imageUrl:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuCRonWpPmW5cm36a8gIulwNm6MXpXhmpF3c6jE8HPMreU7rA6mFGzCuGB86w9TafTCRLc1Q619W7DFlgkwb6Z88XdGx4f1rPokl8-Yi8640uvKf4RhlWDY5qWUsXzH38VI-ZBj6Elbx47kKPXyEqC013fIXsuKaoXK0T_XImXNqt2zsIoLeQGcL6NswY7Po14OSW2WOP7ZsnKWF_-_Uevfohi3KqAg4wj-EKUioROis7F12kvlyK55E8RKqyZm1jOwmlCunSIsr-5WH',
+      "https://imgs.search.brave.com/GxpkGa1v-8jEpm1mv7mPA2Eo5RrtD8Ah_Mqk7N_NsYs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFFdEVPd0szUEwu/anBn",
     badgeText: 'New Arrival',
     title: 'Elegant Dark Clock',
     description: 'A sleek and modern clock designed for contemporary spaces.',
@@ -95,5 +95,19 @@ export const NoBadge: Story = {
     tags: ['Classic', 'Analog'],
     stock: 20,
     price: 19.99,
+  },
+};
+
+export const Standing: Story = {
+  args: {
+    imageUrl:
+      "https://imgs.search.brave.com/05nEI2hDGJggm5IYgAoMkz9mgqukqu3GIkjQNjeCnaI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQw/NDQ1NTg3OS9waG90/by93b29kZW4tYnJv/d24tc3RhbmRpbmct/Y2xvY2stb24td2hp/dGUtYmFja2dyb3Vu/ZC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9RW9FV1o1Vnl1/MWxoM19VNUFpQnhw/N2toSWVabldWcUtj/THUxeXgyOUUwND0",
+    badgeText: 'New Arrival',
+    title: 'Elegant Dark StandingClock',
+    description: 'A sleek and traditional clock designed for contemporary spaces.',
+    tags: ['Clock', 'Elegant', 'Dark'],
+    stock: 5,
+    price: 49.99,
+    backgroundColor: 'bg-card-white',
   },
 };
